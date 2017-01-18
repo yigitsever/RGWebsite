@@ -1,0 +1,11 @@
+#logo-img{
+    background: url("teduimg.png") no-repeat;
+    width: 236px;
+    height: 79px;
+    margin: 10px 15px 10px 0;
+    margin-left: 25px;
+}
+.nav
+{
+    height: 125px;
+}
