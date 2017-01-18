@@ -1,5 +1,12 @@
-.sitemap{
+sitemap{
     margin: 50px;
     position: relative;
     top:500px;
+}
+.members{
+    margin: 50px;
+    float: left;
+}
+.sosyal {
+    float: right;
 }
