@@ -19,13 +19,22 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a href="index.html" class="navbar-brand pull-left visible-xs visible-sm visible-md visible-lg">
-                    <div id="logo-img"></div>
+                <a href="index.html" class="navbar-brand pull-left  visible-lg">
+                    <div id="logo-img-lg"></div>
                 </a>
+                <a href="index.html" class="navbar-brand pull-left   visible-md ">
+                    <div id="logo-img-md"></div>
+                </a>
+                <a href="index.html" class="navbar-brand pull-left  visible-sm  ">
+                    <div id="logo-img-sm"></div>
+                </a>
+                <a href="index.html" class="navbar-brand pull-left visible-xs   ">
+                    <div id="logo-img-xs"></div>
+                </a>
+
                 <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse"
                         data-target="#collapsable-nav" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -37,18 +46,30 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="collapsable-nav">
+            <div class="collapse navbar-collapse  " id="collapsable-nav">
 
-                <ul id="nav-list" class="nav navbar-nav navbar-right nav-menu">
+                <ul id="nav-list" class="nav navbar-nav navbar-right nav-menu hidden-md hidden-sm">
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="Members.html">Members</a></li>
                     <li><a href="Research.html">Research</a></li>
-                    <li><a href="Teaching.html">Teaching</a></li>
                     <li><a href="News.html">News</a></li>
                     <li><a href="Publications.html">Publications</a></li>
-                    <li><a href="Researchareas.html">Research Areas</a></li>
+                    <li><a class="MenuEnd" href="Teaching.html">Teaching</a></li>
+                </ul>
+
+                <ul  class="nav navbar-nav navbar-right nav-menu hidden-lg hidden-sm hidden-xs">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Members.html">Members</a></li>
+                    <li><a href="Research.html">Research</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="Publications.html">Publications</a></li>
+                    <li><a class="MenuEnd" href="Teaching.html">Teaching</a></li>
                 </ul>
 
             </div><!-- /.navbar-collapse -->
+
+
+
         </div><!-- /.container-fluid -->
     </nav>
 </header>
