@@ -1,12 +1,51 @@
-sitemap{
-    margin: 50px;
+footer{
     position: relative;
-    top:500px;
+    bottom:0px;
+    height: 250px;
+
 }
-.members{
-    margin: 50px;
-    float: left;
+#logoAndMap{
+    float:left;
 }
+
+.sitemap{
+    float:left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+/*
 .sosyal {
     float: right;
+    margin-top: 25px;
+    right:50px;
+
+}*/
+.copyrights{
+    text-align: center;
+}
+
+.contact{
+    float: right;
+}
+
+.footer{
+    background-color: #e7e7e7;
+}
+.contact ul{
+    position: relative;
+    top:10px;
+    list-style-type: none;
+
+}
+.glyphicon{
+    top:0.5em;
+}
+.contact ul li{
+    margin-top: 5px;
+}
+.socialnetwork{
+    position: relative;
+    top:70px;
+    float: right;
+
 }
