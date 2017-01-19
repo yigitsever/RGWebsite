@@ -1,24 +1,86 @@
 #logo-img-lg {
-    background: url("logo50.png") no-repeat;
+    background: url("logo-lg.png") no-repeat;
     width: 400px;
     height: 132px;
 
 }
 
 #logo-img-md {
-    background: url("logo50.png") no-repeat;
-    width: 400px;
-    height: 132px;
+    background: url("logo-md.png") no-repeat;
+    width: 300px;
+    height: 99px;
 
 }
 
-.navbar-brand{
+#logo-img-sm {
+    background: url("logo-sm.png") no-repeat;
+    width: 150px;
+    height: 144px;
+
+}
+#logo-img-xs {
+    background: url("logo-xs.png") no-repeat;
+    width: 100px;
+    height: 94px;
+
+}
+
+@media  only screen and  (max-width: 767px) {
+    .navbar-brand {
+        position: relative !important;
+        left: +3% !important;
+    }
+
+}
+
+@media  only screen and  (min-width: 199px) {
+    .nav-menu{
+        top: -5rem !important;
+    }
+}
+
+@media  only screen and  (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        height: 150px !important;
+        position: relative !important;
+        left: 1rem !important;
+    }
+    .nav-menu{
+        top: -5rem !important;
+        left:7rem !important;
+        font-size:12px !important;
+    }
+    .container>.navbar-collapse{
+        height:100px !important;
+    }
+    .container>.navbar-collapse{
+        height: 100px!important;
+    }
+}
+@media only screen and  (min-width: 992px) and (max-width: 1199px) {
+    .navbar-default .navbar-brand {
+        top: 3rem !important;
+    }
+    .navbar-brand {
+        position: relative !important;
+        left: 1rem !important;
+        height: 150px !important;
+    }
+    .nav-menu{
+        top: -5rem!important;
+        left:7rem !important;
+        font-size:15px !important;
+    }
+}
+
+.navbar-brand {
     height: 125px;
 }
+
 .nav-menu {
     box-sizing: content-box;
     position: relative;
-    top: -5rem;
+    top: 0rem;
     left: 10rem;
     padding: 10px;
     font-family: "Lato", sans-serif;
@@ -32,15 +94,18 @@
 
 }
 
-.navbar-default .navbar-nav>li>a:hover{
-    color:#c30000;
+.navbar-default .navbar-nav > li > a:hover {
+    color: #c30000;
 }
 
 .navbar-collapse.in {
     overflow-y: visible;
 
 }
-.nav>li>a {
+div#collapsable-nav.navbar-collapse.collapse.in{
+    height: 200px;
+}
+.nav > li > a {
     position: relative;
     display: block;
     padding: 10px 10px;
@@ -53,3 +118,4 @@
     position: relative;
     left: -30%;
 }
+
