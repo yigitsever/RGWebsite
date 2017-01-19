@@ -1,0 +1,61 @@
+.jumbotron {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 500px;
+    color: black;
+    background-image:url("https://placeholdit.imgix.net/~text?txtsize=84&txt=900%C3%97600&w=900&h=600");
+    background-size: cover;
+    width: 100%;
+
+
+}
+.gallery {
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    border:50px solid #FFF;
+    margin: 20px;
+}
+
+.gallery-item .thumbnail {
+
+}
+h1, h3{
+    text-align: center;
+}
+.col-3 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: right;
+    font-size: 20px;
+    margin: 50px 3% 0 0;
+    padding: 50px 0 0 0;
+    width: 150%;
+}
+.bg-blue {
+    background: #e5eff8;
+}
+p {
+    text-align: center;
+    position: relative;
+    left: 50px;
+    right: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    margin: 0 0 20px 0;
+}
+h2{
+    text-align: center;
+}

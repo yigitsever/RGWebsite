@@ -1,39 +1,51 @@
+footer{
+    position: relative;
+    bottom:0px;
+    height: 250px;
+
+}
+#logoAndMap{
+    float:left;
+}
+
 .sitemap{
     float:left;
     margin-top: 25px;
     margin-left: 25px;
 }
+/*
 .sosyal {
     float: right;
     margin-top: 25px;
     right:50px;
 
-}
+}*/
 .copyrights{
     text-align: center;
 }
-#tel{
-    top:-30px;
-    left:205px;
-    margin-bottom: 15px;
-}
-#info{
-    left: -20px;
-    top:-5px;
-}
-.sosyalAndContact{
-    top:-85px;
-    position: relative;
-}
+
 .contact{
-    font-family: Monaco;
+    float: right;
 }
-#adress{
-    top:-60px;
-    left:480px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+
 .footer{
-    background-color: #cccccc;
+    background-color: #e7e7e7;
+}
+.contact ul{
+    position: relative;
+    top:10px;
+    list-style-type: none;
+
+}
+.glyphicon{
+    top:0.5em;
+}
+.contact ul li{
+    margin-top: 5px;
+}
+.socialnetwork{
+    position: relative;
+    top:70px;
+    float: right;
+
 }

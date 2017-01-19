@@ -2,12 +2,11 @@
     background: url("https://placekitten.com/236/80") no-repeat;
     width: 236px;
     height: 79px;
-    margin: 10px 15px 10px 0;
-    margin-left: 25px;
+
 }
-.nav
-{
-    height: 100px;
+
+.navbar-brand{
+    height: 125px;
 }
 .nav-menu {
     box-sizing: content-box;
@@ -26,4 +25,7 @@
 }
 .nav-menu>li:hover{
     color:red;
+}
+.navbar-collapse.in {
+    overflow-y: visible;
 }
