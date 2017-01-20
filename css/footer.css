@@ -1,53 +1,39 @@
-footer{
+.footer {
     position: relative;
-    bottom:0px;
-    height: 250px;
+    margin-top: 30px;
+    padding-top: 30px;
+    bottom: 0px;
+    background-color: #e7e7e7;
 
 }
-#logoAndMap{
-    float:left;
 
+#logoAndMap {
+    float: left;
 }
 
-.sitemap{
-    float:left;
+.sitemap {
+    float: left;
     margin-top: 25px;
     margin-left: 25px;
 }
-#contactAndSocial{
-    float: right;
-}
-/*
-.sosyal {
-    float: right;
-    margin-top: 25px;
-    right:50px;
 
-}*/
-.copyrights{
-    text-align: center;
-}
-
-.contact{
+#contactAndSocial {
     float: right;
 }
 
-.footer{
-    background-color: #e7e7e7;
+.contact {
+    float: right;
 }
-.contact ul{
-    position: relative;
-    top:10px;
+
+.contact ul {
     list-style-type: none;
-
 }
 
-.contact ul li{
+.contact ul li {
     margin-top: 5px;
 }
-.socialnetwork{
-    position: relative;
-    top:-13px;
+
+.socialnetwork {
     float: right;
 
 }
