@@ -6,12 +6,16 @@ footer{
 }
 #logoAndMap{
     float:left;
+
 }
 
 .sitemap{
     float:left;
     margin-top: 25px;
     margin-left: 25px;
+}
+#contactAndSocial{
+    float: right;
 }
 /*
 .sosyal {
@@ -37,15 +41,13 @@ footer{
     list-style-type: none;
 
 }
-.glyphicon{
-    top:0.5em;
-}
+
 .contact ul li{
     margin-top: 5px;
 }
 .socialnetwork{
     position: relative;
-    top:70px;
+    top:-13px;
     float: right;
 
 }
