@@ -1,9 +1,18 @@
+
 .footer {
     position: relative;
     margin-top: 30px;
     padding-top: 30px;
     bottom: 0px;
+
+
+}
+.forfooter{
     background-color: #e7e7e7;
+    position: relative;
+    margin-top: 30px;
+    padding-top: 30px;
+    bottom: 0px;
 
 }
 
