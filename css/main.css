@@ -156,12 +156,6 @@ div#collapsable-nav.navbar-collapse.collapse.in{
 }
 
 
-
-
-.h1 {
-    position: relative;
-    text-align: center;
-}
 /*header is over*/
 
 /* body is started */
@@ -176,28 +170,32 @@ div#collapsable-nav.navbar-collapse.collapse.in{
     border:50px solid #FFF;
     margin-left: auto;
     margin-right: auto;
+    alignment: center;
+    justify-content: center;
 }
-h1, h3{
+h1, h2, h3{
+    position: relative;
     text-align: center;
 }
-.col-3 {
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: right;
-    font-size: 20px;
-    margin: 50px 3% 0 0;
-    padding: 50px 0 0 0;
-    width: 150%;
+
+.debug-box {
+    padding: 0 5px 0 5px;
+    text-align: center;
 }
+.thumbnail{
+    width: auto;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 .bg-blue {
     background: #e5eff8;
 }
 
-h2{
-    text-align: center;
-}
 p {
     text-align: center;
     position: relative;
@@ -262,27 +260,27 @@ p {
 
 
 /*logolar*/
-#logo-img-lg {
+.logo-img-lg {
     background: url("../sources/logo-lg.png") no-repeat;
     width: 400px;
     height: 132px;
 
 }
 
-#logo-img-md {
+.logo-img-md {
     background: url("../sources/logo-md.png") no-repeat;
     width: 300px;
     height: 99px;
 
 }
 
-#logo-img-sm {
+.logo-img-sm {
     background: url("../sources/logo-sm.png") no-repeat;
     width: 150px;
     height: 144px;
 
 }
-#logo-img-xs {
+.logo-img-xs {
     background: url("../sources/logo-xs.png") no-repeat;
     width: 100px;
     height: 94px;
