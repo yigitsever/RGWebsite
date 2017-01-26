@@ -1,14 +1,9 @@
-/*header is started*/
+/*header is started */
 .navbar-default .navbar-brand {
-    color: #777;
-    position: relative;
-    left: -30%;
-}
-.navbar-brand {
-    height: 125px;
+	height: 150px;
 }
 
-@media  only screen and  (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .navbar-brand {
         position: relative !important;
         left: +3% !important;
@@ -295,11 +290,6 @@ p {
     background: url("../sources/logo-lg.png") no-repeat;
     width: 400px;
     height: 132px;
-	margin-left: 155px;
-	margin-bottom: 55px;
-	padding-bottom: 25px;
-	border-bottom: 25px;
-
 }
 
 .logo-img-md {
