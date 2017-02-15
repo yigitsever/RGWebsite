@@ -320,4 +320,8 @@ p {
 #inner {
     display: table;
     margin: 0 auto;
+    text-align: center;
+}
+#inner ul {
+    list-style:none;
 }
