@@ -6,30 +6,37 @@
 	height: 100px;
 }
 
-@media only screen and (max-width: 767px) {
+@media  only screen and  (min-width: 199px) and (max-width: 767px){
+    .nav-menu{
+        top: -5rem !important;
+    }
+    .navbar-collapse.in{
+        background-color: #BCBCBC;
+    }
     .navbar-brand {
         position: relative !important;
         left: +3% !important;
     }
+}
+
+@media only screen and (max-width: 767px) {
+    
 
 }
 
-@media  only screen and  (min-width: 199px) {
-    .nav-menu{
-        top: -5rem !important;
-    }
-}
+
 
 @media  only screen and  (min-width: 768px) and (max-width: 991px) {
     .navbar-brand {
         height: 150px !important;
         position: relative !important;
-        left: 1rem !important;
+        left: -3rem !important;
     }
     .nav-menu{
-        top: -5rem !important;
-        left:7rem !important;
-        font-size:12px !important;
+    font-size:13px !important;
+    margin-top: -13%;
+    margin-right: -50px;
+        
     }
     .container>.navbar-collapse{
         height:100px !important;
@@ -37,23 +44,45 @@
     .container>.navbar-collapse{
         height: 100px!important;
     }
+
 }
 @media only screen and  (min-width: 992px) and (max-width: 1199px) {
-    .navbar-default .navbar-brand {
-        top: 3rem !important;
-    }
 
     .navbar-brand {
         position: relative !important;
-        left: 1rem !important;
+        left: -2rem !important;
         height: 150px !important;
+        top: 3rem !important;
     }
 
     .nav-menu {
-        top: -5rem !important;
-        left: 7rem !important;
         font-size: 15px !important;
+        margin-right: -8rem;
+        margin-top: -9rem;
     }
+
+
+}
+@media only screen and (min-width: 1199px) {
+
+    .navbar-brand {
+        position: relative !important;
+        left: -2rem !important;
+        height: 150px !important;
+        top: 3rem !important;
+    }
+
+    .nav-menu {
+        font-size: 16px !important;
+        position: relative;
+        top: -7rem;
+         
+        
+    }
+    .navbar{
+        height: 190px;
+    }
+
 
 }
 
@@ -67,8 +96,6 @@ div#collapsable-nav.navbar-collapse.collapse.in{
 
 
 .nav-menu {
-    top: 0rem;
-    left: 10rem;
     padding: 10px;
     font-family: "Istok Web", sans-serif;
     text-transform: uppercase;
