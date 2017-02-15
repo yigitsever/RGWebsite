@@ -1,30 +1,22 @@
-/*header is started */
-.navbar-default .navbar-brand {
-    color: #777;
-    position: relative;
-    left: -30%;
-	height: 100px;
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
 }
 
-@media only screen and (max-width: 767px) {
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
     .navbar-brand {
         position: relative !important;
         left: +3% !important;
-    }
-
-}
-
-@media  only screen and  (min-width: 199px) {
-    .nav-menu{
-        top: -5rem !important;
-    }
-}
-
-@media  only screen and  (min-width: 768px) and (max-width: 991px) {
-    .navbar-brand {
         height: 150px !important;
         position: relative !important;
-        left: 1rem !important;
     }
     .nav-menu{
         top: -5rem !important;
@@ -36,9 +28,10 @@
     }
     .container>.navbar-collapse{
         height: 100px!important;
-    }
+	}
 }
-@media only screen and  (min-width: 992px) and (max-width: 1199px) {
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
     .navbar-default .navbar-brand {
         top: 3rem !important;
     }
@@ -54,8 +47,23 @@
         left: 7rem !important;
         font-size: 15px !important;
     }
-
 }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*header is started */
+.navbar-default .navbar-brand {
+    color: #777;
+    position: relative;
+    left: -30%;
+	height: 100px;
+}
+
 .navbar-collapse.in {
     overflow-y: visible;
 
