@@ -248,6 +248,8 @@ p {
     bottom: 0px;
 
 
+
+
 }
 .forfooter{
     background-color: #e7e7e7;
@@ -314,4 +316,8 @@ p {
     width: 100px;
     height: 94px;
 
+}
+#inner {
+    display: table;
+    margin: 0 auto;
 }
