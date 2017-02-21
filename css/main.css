@@ -15,30 +15,22 @@
 	}
 	.navbar-brand {
 		position: relative !important;
-		left: +3% !important;
 	}
 }
 
 @media only screen and (max-width: 767px) {
-
-
 }
-
-
 
 @media  only screen and  (min-width: 768px) and (max-width: 991px) {
 	.navbar-brand {
 		position: relative !important;
-		left: +3% !important;
 		height: 150px !important;
 		position: relative !important;
-		left: -3rem !important;
 	}
 	.nav-menu{
 		font-size:13px !important;
 		margin-top: -13%;
 		margin-right: -50px;
-
 	}
 	.container>.navbar-collapse{
 		height:100px !important;
