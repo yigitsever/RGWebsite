@@ -212,7 +212,6 @@ div#collapsable-nav.navbar-collapse.collapse.in{
 /* body is started */
 body {
 	font-family: 'Lora', serif;
-	min-height: 2000px;
 }
 .gallery {
 	margin-top:30px;
