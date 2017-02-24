@@ -68,14 +68,14 @@
     .navbar-brand {
         position: relative !important;
         left: -2rem !important;
-        height: 90px !important;
+        height: 70px !important;
         top: -1rem !important;
     }
 
     .nav-menu {
         font-size: 16px !important;
         position: relative;
-        top: -6rem;
+        top: -4rem;
          
         
     }
