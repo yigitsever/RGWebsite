@@ -68,20 +68,18 @@
     .navbar-brand {
         position: relative !important;
         left: -2rem !important;
-        height: 150px !important;
-        top: 3rem !important;
+        height: 90px !important;
+        top: -1rem !important;
     }
 
     .nav-menu {
         font-size: 16px !important;
         position: relative;
-        top: -7rem;
+        top: -6rem;
          
         
     }
-    .navbar{
-        height: 190px;
-    }
+
 
 
 }
@@ -89,6 +87,9 @@
 .navbar-collapse.in {
     overflow-y: visible;
 
+}
+.navbar-collapse{
+    height: 150px;
 }
 div#collapsable-nav.navbar-collapse.collapse.in{
     height: 200px;
@@ -279,7 +280,7 @@ p {
 
 }
 .forfooter{
-    background-color: #e7e7e7;
+    background-color: #f8f8f8;
     position: relative;
     margin-top: 30px;
     padding-top: 30px;
