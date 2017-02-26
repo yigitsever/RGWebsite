@@ -272,7 +272,7 @@ p {
 	bottom: 0px;
 }
 .forfooter{
-    background-color: #f8f8f8;
+    background-color: #95a5a6;
     position: relative;
     margin-top: 30px;
     padding-top: 30px;
@@ -311,6 +311,20 @@ p {
 }
 /* footer is over */
 
+/* javascript tabs are started */
+#tab-container { background: #fff;  height: auto; }
+#tab-container ul { height: auto; list-style: none; margin: 0; padding: 0; background: #ccc; float: left; border-radius: 10px;
+	border: 3px;}
+#tab-container ul li { width: 100px; margin: 0; padding: 0; text-align: center; border-radius: 10px;
+	border: 3px;}
+#tab-container ul li a { display: block; padding: 15px 0; outline: none; }
+#tab-container ul li a:hover { text-decoration: underline; }
+#tab-container ul li.selected-tab { background: #fff; position: relative; }
+#tab-container ul li:first-child.selected-tab { }
+#tab-container ul li a.selected-tab { font-weight: bold; text-decoration: none; }
+#tab-container .panel-container { background: #fff; padding-top: 5px; padding-left: 120px; }
+.panel-container { margin-bottom: 10px; }
+/* javascript tabs are over */
 
 /*logolar*/
 .logo-img-lg {
