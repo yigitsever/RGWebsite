@@ -1,10 +1,5 @@
 /*header is started */
-.navbar-default .navbar-brand {
-	color: #777;
-	position: relative;
-	left: -30%;
-	height: 100px;
-}
+
 
 @media  only screen and  (min-width: 199px) and (max-width: 767px){
 	.nav-menu{
@@ -16,15 +11,20 @@
 	.navbar-brand {
 		position: relative !important;
 	}
+    .navbar-default .navbar-brand {
+    color: #777;
+    position: relative;
+    left: 5%;
+    height: 100px;
+}
 }
 
-@media only screen and (max-width: 767px) {
-}
 
 @media  only screen and  (min-width: 768px) and (max-width: 991px) {
 	.navbar-brand {
 		position: relative !important;
 		height: 150px !important;
+        left: -30% !important;
 		position: relative !important;
 	}
 	.nav-menu{
@@ -45,19 +45,23 @@
 	.navbar-brand {
 		position: relative !important;
 		left: -2rem !important;
-		height: 150px !important;
-		top: 3rem !important;
+		height: 70px !important;
+		top: 0rem !important;
 	}
 
 	.nav-menu {
 		font-size: 15px !important;
 		margin-right: -8rem;
-		margin-top: -9rem;
+		position: relative;
+        top: -4rem;
 	}
+    .navbar{
+        height: 110px;
+    }
 
 
 }
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 1200px) {
     .navbar-brand {
         position: relative !important;
         left: -2rem !important;
@@ -72,13 +76,12 @@
     }
 
 	.navbar{
-		height: 190px;
+		height: 130px;
 	}
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-}
+
+
 .navbar-collapse.in {
 	overflow-y: visible;
 
@@ -327,8 +330,8 @@ p {
 
 .logo-img-sm {
 	background: url("../sources/logo-sm.png") no-repeat;
-	width: 150px;
-	height: 144px;
+	width: 135px;
+	height: 130px;
 
 }
 .logo-img-xs {
