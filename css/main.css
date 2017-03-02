@@ -1,6 +1,8 @@
 /*header is started */
+
 .navbar-default .navbar-brand {
 	color: #777;
+	background-color: #f8f8f8;
 	position: relative;
 	left: -30%;
 	height: 100px;
@@ -261,6 +263,7 @@ p {
 	line-height: 34px;
 	margin: 40px auto;
 }
+
 /* body is over */
 
 /*footer is started*/
@@ -272,7 +275,7 @@ p {
 	bottom: 0px;
 }
 .forfooter{
-    background-color: #95a5a6;
+    background-color: #f8f8f8;
     position: relative;
     margin-top: 30px;
     padding-top: 30px;
@@ -370,3 +373,8 @@ p {
     margin-left:40px;
     padding-left: 5px;
   }
+.memberfoto {
+	width: 220px;
+	height: 220px;
+
+}
