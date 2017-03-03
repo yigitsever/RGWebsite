@@ -312,6 +312,7 @@ p {
 /* footer is over */
 
 /* javascript tabs are started */
+/*
 #tab-container { background: #fff;  height: auto; }
 #tab-container ul { height: auto; list-style: none; margin: 0; padding: 0; background: #ccc; float: left; border-radius: 10px;
 	border: 3px;}
@@ -324,6 +325,7 @@ p {
 #tab-container ul li a.selected-tab { font-weight: bold; text-decoration: none; }
 #tab-container .panel-container { background: #fff; padding-top: 5px; padding-left: 120px; }
 .panel-container { margin-bottom: 10px; }
+*/
 /* javascript tabs are over */
 
 /*logolar*/

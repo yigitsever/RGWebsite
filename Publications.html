@@ -11,6 +11,63 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<style type="text/css">
+			/* Vertical Tabs
+            ----------------------------------*/
+
+
+			.sidebar-tab {
+				float:left;
+				width:320px;
+			}
+			.sidebar-tab h2 {
+				background:#4c90cc;
+				border-bottom:2px solid #fff;
+				color:#fff;
+				font-weight:300 !important;
+				font-size:20px;
+				padding:16px 20px;
+				text-transform:uppercase;
+			}
+			.sidebar-tab a {
+				background:#f2f7fb;
+				border-bottom:2px solid #fff;
+				color:#3c3c3c;
+				display:block;
+				font-size:18px;
+				line-height:24px;
+				padding:16px 20px;
+			}
+			.sidebar a:hover, .sidebar a {background:#b2cfe9;}
+
+			.main-tabs {
+				float:right;
+				width:700px;
+			}
+			#tab-container ul, #tab-container ol {
+				background:#fcf2f2;
+				margin:0 0 30px 0;
+				padding:35px 35px 10px 35px;
+			}
+			#tab-container ul li, #tab-container ol li {
+				background:url(images/bg_bullet.png) no-repeat left 10px;
+				font-size:18px;
+				line-height:32px;
+				list-style-type:none;
+				margin:0 0 30px 0;
+				padding:0 0 0 35px;
+			}
+
+			#tab-container ul li {
+				background:none;
+				margin:0 0 30px 30px;
+				padding:0 0 0 20px;
+			}
+
+			.column > * { padding:0 40px 0 0; }
+			.columns {display:block;}
+		</style>
 
 	</head>
 	<body>
@@ -55,31 +112,35 @@
 		</nav>
 
 		<div class="container">
-			<div id="tab-container">
-				<ul>
-					<li><a href="#tab-1">Tab 1</a></li>
-					<li><a href="#tab-2">Tab 2</a></li>
-					<li><a href="#tab-3">Tab 3</a></li>
-				</ul>
-				<div class="panel-container">
-					<div id="tab-1">
-						<h2>Heading 1</h2>
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat, diam maximus consectetur egestas, nibh nisl dictum enim, a imperdiet purus velit ut lectus. Curabitur rhoncus turpis eros. Ut velit sapien, sollicitudin eget dui et, tincidunt ultrices libero. Vivamus at venenatis ipsum, eget venenatis ex. Etiam lobortis facilisis est et sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut orci velit.
-
-							In lectus libero, sagittis eu viverra eu, volutpat et ex. Phasellus ac efficitur lacus, nec ullamcorper ligula. Phasellus vitae justo sit amet elit auctor venenatis. Cras iaculis libero et tellus fringilla, et tincidunt felis auctor. Donec molestie vel tellus quis aliquam. Duis vestibulum imperdiet dui eu lacinia. Suspendisse in metus nunc. Etiam tristique iaculis porta. Nunc sagittis justo sit amet metus laoreet, eget mollis tellus consectetur. In id massa porttitor nunc malesuada imperdiet ut vitae sem. Quisque nisl augue, luctus non risus in, tempus condimentum ipsum. </p>
-					</div>
-					<div id="tab-2">
-						<h2>Heading 2</h2>
-						<p> Ut at fermentum libero. Cras quis blandit nisi. Mauris lobortis lorem mattis, molestie quam eu, malesuada augue. Nulla facilisi. Sed pretium eu metus et faucibus. Proin venenatis, sem a iaculis blandit, justo dui imperdiet purus, non semper lectus ipsum quis enim. Duis libero leo, rutrum sed placerat sit amet, dapibus et elit.
-
-							Vivamus sit amet massa ut nulla viverra viverra. Praesent maximus mattis dui eu porta. Nulla varius tellus id mauris scelerisque eleifend. Nullam malesuada vulputate ligula eget cursus. Pellentesque sit amet ligula id libero pellentesque lobortis at quis velit. Vivamus pellentesque ultricies odio et tempus. Donec eu quam ac mi condimentum ultricies. Nunc et sodales lacus. Donec rhoncus pellentesque odio, a maximus urna. Vivamus elit turpis, porta ultricies felis id, convallis viverra nibh. In nisl lacus, gravida at tincidunt vitae, bibendum a dui. Quisque erat dui, ultrices ac porta ac, varius eu purus. Nulla eu ultrices odio. </p>
-					</div>
-					<div id="tab-3">
-						<h2>Heading 3</h2>
-						<p>Donec efficitur vel ipsum nec feugiat. Aliquam semper eros sed neque volutpat interdum. Aenean efficitur ornare mollis. Sed a enim maximus, accumsan augue at, convallis augue. Praesent sed porttitor metus. Cras ac vulputate tellus. Aenean eget nunc eget felis malesuada dapibus in a justo. Donec feugiat dui elit, id tincidunt mauris luctus in. Mauris vestibulum eros sed lacus lobortis, non dictum enim aliquet. Nullam consectetur malesuada lacus, in suscipit tellus porta vel. Fusce nec ipsum euismod, bibendum augue ut, tristique arcu. Morbi at mauris consectetur, tincidunt ipsum quis, tincidunt est. Fusce facilisis nec lacus vel accumsan. In vel fringilla nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam semper tristique augue vitae commodo. </p>
-					</div>
+			<div id="tab-container" class="ui-tabs ui-corner-all ui-widget ui-widget-content ui-tabs-vertical ui-helper-clearfix">
+				<div class="sidebar-tab">
+					<ul class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
+						<li class="ui-tabs-tab ui-state-default ui-tab ui-corner-left"><a href="#tab-1"><h2>Tab 1</h2></a></li>
+						<li class="ui-tabs-tab ui-state-default ui-tab ui-corner-left"><a href="#tab-2"><h2>Tab 2</h2></a></li>
+						<li class="ui-tabs-tab ui-state-default ui-tab ui-corner-left"><a href="#tab-3"><h2>Tab 3</h2></a></li>
+					</ul>
 				</div>
 
+				<div class="main-tabs">
+					<div class="panel-container">
+						<div id="tab-1" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+							<h2>Heading 1</h2>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat, diam maximus consectetur egestas, nibh nisl dictum enim, a imperdiet purus velit ut lectus. Curabitur rhoncus turpis eros. Ut velit sapien, sollicitudin eget dui et, tincidunt ultrices libero. Vivamus at venenatis ipsum, eget venenatis ex. Etiam lobortis facilisis est et sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut orci velit.
+
+								In lectus libero, sagittis eu viverra eu, volutpat et ex. Phasellus ac efficitur lacus, nec ullamcorper ligula. Phasellus vitae justo sit amet elit auctor venenatis. Cras iaculis libero et tellus fringilla, et tincidunt felis auctor. Donec molestie vel tellus quis aliquam. Duis vestibulum imperdiet dui eu lacinia. Suspendisse in metus nunc. Etiam tristique iaculis porta. Nunc sagittis justo sit amet metus laoreet, eget mollis tellus consectetur. In id massa porttitor nunc malesuada imperdiet ut vitae sem. Quisque nisl augue, luctus non risus in, tempus condimentum ipsum. </p>
+						</div>
+						<div id="tab-2" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+							<h2>Heading 2</h2>
+							<p> Ut at fermentum libero. Cras quis blandit nisi. Mauris lobortis lorem mattis, molestie quam eu, malesuada augue. Nulla facilisi. Sed pretium eu metus et faucibus. Proin venenatis, sem a iaculis blandit, justo dui imperdiet purus, non semper lectus ipsum quis enim. Duis libero leo, rutrum sed placerat sit amet, dapibus et elit.
+
+								Vivamus sit amet massa ut nulla viverra viverra. Praesent maximus mattis dui eu porta. Nulla varius tellus id mauris scelerisque eleifend. Nullam malesuada vulputate ligula eget cursus. Pellentesque sit amet ligula id libero pellentesque lobortis at quis velit. Vivamus pellentesque ultricies odio et tempus. Donec eu quam ac mi condimentum ultricies. Nunc et sodales lacus. Donec rhoncus pellentesque odio, a maximus urna. Vivamus elit turpis, porta ultricies felis id, convallis viverra nibh. In nisl lacus, gravida at tincidunt vitae, bibendum a dui. Quisque erat dui, ultrices ac porta ac, varius eu purus. Nulla eu ultrices odio. </p>
+						</div>
+						<div id="tab-3" class="ui-tabs-panel ui-corner-bottom ui-widget-content"> 
+							<h2>Heading 3</h2>
+							<p>Donec efficitur vel ipsum nec feugiat. Aliquam semper eros sed neque volutpat interdum. Aenean efficitur ornare mollis. Sed a enim maximus, accumsan augue at, convallis augue. Praesent sed porttitor metus. Cras ac vulputate tellus. Aenean eget nunc eget felis malesuada dapibus in a justo. Donec feugiat dui elit, id tincidunt mauris luctus in. Mauris vestibulum eros sed lacus lobortis, non dictum enim aliquet. Nullam consectetur malesuada lacus, in suscipit tellus porta vel. Fusce nec ipsum euismod, bibendum augue ut, tristique arcu. Morbi at mauris consectetur, tincidunt ipsum quis, tincidunt est. Fusce facilisis nec lacus vel accumsan. In vel fringilla nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam semper tristique augue vitae commodo. </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -119,19 +180,16 @@
 		</footer>
 
 		<script src="js/jquery-3.1.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script><script src="js/jquery.js" type="text/javascript"></script>
-		<script src="js/jquery.hashchange.js" type="text/javascript"></script>
-		<script src="js/jquery.easytabs.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/jquery-ui.js"></script>
 
-		<script type="text/javascript">
-            $(document).ready(function(){ $('#tab-container').easytabs(); });
-		</script>
-		<script type="text/javascript">
-            $('#tab-container').easytabs({
-                animate: false,
-                tabActiveClass: "selected-tab",
-                panelActiveClass: "displayed"
-            });
+
+		<script>
+            $( function() {
+                $( "#tab-container" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+                $( "#tab-container li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+            } );
 		</script>
 </body>
 </html>
