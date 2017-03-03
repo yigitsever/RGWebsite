@@ -82,6 +82,8 @@
 
 .navbar-collapse.in {
 	overflow-y: visible;
+	height: 100%;
+	background-color: #f8f8f8;
 
 }
 .navbar-collapse{
