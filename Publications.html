@@ -1,190 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Publications</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Publications</title>
 
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<style type="text/css">
-			/* Vertical Tabs
-            ----------------------------------*/
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <style>
+        #sidebar{
+            margin-top: 0;
+        }
+        #sidebar li{
+        }
+        .sidebar-tab{
+            float: left;
+        }
+        .main-tabs{
 
+        }
+    </style>
 
-			.sidebar-tab {
-				float:left;
-				width:320px;
-			}
-			.sidebar-tab h2 {
-				background:#4c90cc;
-				border-bottom:2px solid #fff;
-				color:#fff;
-				font-weight:300 !important;
-				font-size:20px;
-				padding:16px 20px;
-				text-transform:uppercase;
-			}
-			.sidebar-tab a {
-				background:#f2f7fb;
-				border-bottom:2px solid #fff;
-				color:#3c3c3c;
-				display:block;
-				font-size:18px;
-				line-height:24px;
-				padding:16px 20px;
-			}
-			.sidebar a:hover, .sidebar a {background:#b2cfe9;}
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand visible-lg">
+                <div class="logo-img-lg"></div>
+            </a>
+            <a href="index.html" class="navbar-brand visible-md">
+                <div class="logo-img-md"></div>
+            </a>
+            <a href="index.html" class="navbar-brand visible-sm">
+                <div class="logo-img-sm"></div>
+            </a>
+            <a href="index.html" class="navbar-brand visible-xs">
+                <div class="logo-img-xs"></div>
+            </a>
 
-			.main-tabs {
-				float:right;
-				width:700px;
-			}
-			#tab-container ul, #tab-container ol {
-				background:#fcf2f2;
-				margin:0 0 30px 0;
-				padding:35px 35px 10px 35px;
-			}
-			#tab-container ul li, #tab-container ol li {
-				background:url(images/bg_bullet.png) no-repeat left 10px;
-				font-size:18px;
-				line-height:32px;
-				list-style-type:none;
-				margin:0 0 30px 0;
-				padding:0 0 0 35px;
-			}
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div> <!-- End of navbar header-->
 
-			#tab-container ul li {
-				background:none;
-				margin:0 0 30px 30px;
-				padding:0 0 0 20px;
-			}
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right nav-menu">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="Members.html">Members</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="Teaching.html">Teaching</a></li>
+                <li><a class="MenuEnd" href="open-positions.html">Open Positions</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
-			.column > * { padding:0 40px 0 0; }
-			.columns {display:block;}
-		</style>
+<div class="container">
+    <div id="tab-container">
+        <div class="sidebar-tab">
+            <div class="sidebar-offcanvas list-group" id="sidebar">
+                <ul>
+                    <li><a class="list-group-item active" href="#tab-1"><h2>Tab 1</h2></a></li>
+                    <li><a class="list-group-item" href="#tab-2"><h2>Tab 2</h2></a></li>
+                    <li><a class="list-group-item" href="#tab-3"><h2>Tab 3</h2></a></li>
+                </ul>
+            </div>
 
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-static-top">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand visible-lg">
-						<div class="logo-img-lg"></div>
-					</a>
-					<a href="index.html" class="navbar-brand visible-md">
-						<div class="logo-img-md"></div>
-					</a>
-					<a href="index.html" class="navbar-brand visible-sm">
-						<div class="logo-img-sm"></div>
-					</a>
-					<a href="index.html" class="navbar-brand visible-xs">
-						<div class="logo-img-xs"></div>
-					</a>
+        </div>
 
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div> <!-- End of navbar header-->
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="navbar">
-					<ul class="nav navbar-nav navbar-right nav-menu">
-						<li><a class="active" href="index.html">HOME</a></li>
-						<li><a href="Members.html">Members</a></li>
-						<li><a href="Research.html">Research</a></li>
-						<li><a href="News.html">News</a></li>
-						<li><a href="Publications.html">Publications</a></li>
-						<li><a href="Teaching.html">Teaching</a></li>
-						<li><a class="MenuEnd" href="open-positions.html">Open Positions</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-
-		<div class="container">
-
-			<div id="tab-container">
-				<ul>
-					<li><a href="#tab-1">Tab 1</a></li>
-					<li><a href="#tab-2">Tab 2</a></li>
-					<li><a href="#tab-3">Tab 3</a></li>
-				</ul>
-				<div class="panel-container">
-					<div id="tab-1">
-						<h2>Heading 1</h2>
-						<p>
-						Work in progress.
-						</p>
-					</div>
-					<div id="tab-2">
-						<h2>Heading 2</h2>
-						<p>
-						Work in progress.
-						</p>
-					</div>
-					<div id="tab-3">
-						<h2>Heading 3</h2>
-						<p>
-						Work in progress.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="main-tabs">
+            <div class="panel-container">
+                <div id="tab-1" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+                    <h2>Heading 1</h2>
+                    <p>Work in progress.</p>
+                </div>
+                <div id="tab-2" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+                    <h2>Heading 2</h2>
+                    <p>Work in progress.</p>
+                   </div>
+                <div id="tab-3" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+                    <h2>Heading 3</h2>
+                    <p>Work in progress.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
-		<footer class="footer" >
-			<div class="forfooter" style="width:100%" >
-				<div id="inner">
-					<ul id="contact">
-						<li>
-							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-							<strong>Ziya Gökalp Caddesi No:48<br> 06420, Kolej Çankaya ANKARA</strong>
-						</li>
-						<li>
-							<span id="tel" class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<strong>+90 312 585 0000</strong>
-						</li>
-						<li>
-							<span id="info" class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-							<strong>info@tedu.edu.tr</strong>
-						</li>
-					</ul>
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-xs-12">
-						</div> <!-- End of Col1-->
-						<div class="col-lg-6 col-xs-12">
-						</div> <!-- End of col2-->
-					</div><!--End of Row-->
-				</div> <!--End of Container -->
-			</div> <!-- End of Forfooter-->
-		</footer>
+<footer class="footer" >
+    <div class="forfooter" style="width:100%" >
+        <div id="inner">
+            <ul id="contact">
+                <li>
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                    <strong>Ziya Gökalp Caddesi No:48<br> 06420, Kolej Çankaya ANKARA</strong>
+                </li>
+                <li>
+                    <span id="tel" class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                    <strong>+90 312 585 0000</strong>
+                </li>
+                <li>
+                    <span id="info" class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    <strong>info@tedu.edu.tr</strong>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                </div> <!-- End of Col1-->
+                <div class="col-lg-6 col-xs-12">
+                </div> <!-- End of col2-->
+            </div><!--End of Row-->
+        </div> <!--End of Container -->
+    </div> <!-- End of Forfooter-->
+    <div class="text-center" id="copy">
+        <h4>Copyright &copy; 2017 TEDU | <i>All rights reserved</i></h4>
+    </div>
+</footer>
 
-		<script src="js/jquery-3.1.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.js" type="text/javascript"></script>
-		<script src="js/jquery-ui.js"></script>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery-ui.js"></script>
 
 
-		<script>
-            $( function() {
-                $( "#tab-container" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
-                $( "#tab-container li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
-            } );
-		</script>
-	</body>
+<script>
+    $( function() {
+        $( "#tab-container" ).tabs();
+    } );
+</script>
+</body>
 </html>
