@@ -1,10 +1,4 @@
 /*header is started */
-.navbar-default .navbar-brand {
-	color: #777;
-	position: relative;
-	left: -30%;
-	height: 100px;
-}
 
 @media  only screen and  (min-width: 199px) and (max-width: 767px){
 	.nav-menu{
@@ -16,15 +10,20 @@
 	.navbar-brand {
 		position: relative !important;
 	}
+    .navbar-default .navbar-brand {
+    color: #777;
+    position: relative;
+    left: 5%;
+    height: 100px;
+}
 }
 
-@media only screen and (max-width: 767px) {
-}
 
 @media  only screen and  (min-width: 768px) and (max-width: 991px) {
 	.navbar-brand {
 		position: relative !important;
 		height: 150px !important;
+        left: -30% !important;
 		position: relative !important;
 	}
 	.nav-menu{
@@ -45,46 +44,50 @@
 	.navbar-brand {
 		position: relative !important;
 		left: -2rem !important;
-		height: 150px !important;
-		top: 3rem !important;
+		height: 70px !important;
+		top: 0rem !important;
 	}
 
 	.nav-menu {
 		font-size: 15px !important;
 		margin-right: -8rem;
-		margin-top: -9rem;
+		position: relative;
+        top: -4rem;
 	}
+    .navbar{
+        height: 110px;
+    }
 
 
 }
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 1200px) {
     .navbar-brand {
         position: relative !important;
         left: -2rem !important;
-        height: 90px !important;
+        height: 70px !important;
         top: -1rem !important;
     }
 
     .nav-menu {
         font-size: 16px !important;
         position: relative;
-        top: -6rem;
+        top: -4rem;
     }
-
 	.navbar{
-		height: 190px;
+		height: 130px;
 	}
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-}
+
+
 .navbar-collapse.in {
 	overflow-y: visible;
+	height: 100%;
+	background-color: #f8f8f8;
 
 }
 .navbar-collapse{
-    height: 150px;
+	height: 150px;
 }
 div#collapsable-nav.navbar-collapse.collapse.in{
 	height: 200px;
@@ -234,10 +237,6 @@ h1, h2, h3{
 	text-align: center;
 }
 
-.debug-box {
-	padding: 0 5px 0 5px;
-	text-align: center;
-}
 .thumbnail{
 	width: auto;
 	height: auto;
@@ -261,6 +260,7 @@ p {
 	line-height: 34px;
 	margin: 40px auto;
 }
+
 /* body is over */
 
 /*footer is started*/
@@ -272,11 +272,11 @@ p {
 	bottom: 0px;
 }
 .forfooter{
-    background-color: #95a5a6;
-    position: relative;
-    margin-top: 30px;
-    padding-top: 30px;
-    bottom: 0px;
+	background-color: #f8f8f8;
+	position: relative;
+	margin-top: 30px;
+	padding-top: 30px;
+	bottom: 0px;
 
 }
 
@@ -315,9 +315,9 @@ p {
 /*
 #tab-container { background: #fff;  height: auto; }
 #tab-container ul { height: auto; list-style: none; margin: 0; padding: 0; background: #ccc; float: left; border-radius: 10px;
-	border: 3px;}
+border: 3px;}
 #tab-container ul li { width: 100px; margin: 0; padding: 0; text-align: center; border-radius: 10px;
-	border: 3px;}
+border: 3px;}
 #tab-container ul li a { display: block; padding: 15px 0; outline: none; }
 #tab-container ul li a:hover { text-decoration: underline; }
 #tab-container ul li.selected-tab { background: #fff; position: relative; }
@@ -327,6 +327,10 @@ p {
 .panel-container { margin-bottom: 10px; }
 */
 /* javascript tabs are over */
+
+.row.extra-bottom-padding {
+	margin-bottom: 30px;
+}
 
 /*logolar*/
 .logo-img-lg {
@@ -344,8 +348,8 @@ p {
 
 .logo-img-sm {
 	background: url("../sources/logo-sm.png") no-repeat;
-	width: 150px;
-	height: 144px;
+	width: 135px;
+	height: 130px;
 
 }
 .logo-img-xs {
@@ -356,19 +360,23 @@ p {
 }
 #inner {
 
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-    float:left;
-    padding-bottom: 10px;
-
-
+	display: table;
+	margin: 0 auto;
+	text-align: left;
+	float:left;
+	padding-bottom: 10px;
 }
 #inner ul {
-    list-style:none;
-    border-left: 1px solid black;
+	list-style:none;
+	border-left: 1px solid black;
 }
 #contact {
-    margin-left:40px;
-    padding-left: 5px;
-  }
+	margin-left:40px;
+	padding-left: 5px;
+}
+
+.memberfoto {
+	width: auto !important; /*override the width below*/
+	width: 100%;
+	height: 220px;
+}
